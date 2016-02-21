@@ -10,6 +10,10 @@ require 'IteamConnection.class.php';
 require 'IteamObject.class.php';
 class IteamMember extends IteamObject{
 
+    public function __construct(){
+        session_start();
+    }
+    
     public function register() {
         $conn = new IteamConnection();
         $conn->connectDatabase();
