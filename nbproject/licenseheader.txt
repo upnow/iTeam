@@ -1,0 +1,11 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}iTeam Project
+${licensePrefix}You must abide by the copyright law of the people's Republic of China
+${licensePrefix}and the protection of property right in your area,
+${licensePrefix}and accept the terms of service of this website.
+${licensePrefix}Without permit you are NOT allowed to modify this document.${licensePrefix}
+<#if licenseLast??>
+${licenseLast}
+</#if>
