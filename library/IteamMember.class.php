@@ -45,7 +45,7 @@ class IteamMember extends IteamObject{
         
     }
 
-    public function editProfit() {
+    public function editProfile() {
         
     }
 
